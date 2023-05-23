@@ -1,16 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <section class="navbar">
+      <div class="nav-left center">
+        <h3>Movie App</h3>
+      </div>
+      <div class="nav-middle center">
+        <form>
+          <input
+            type="text"
+            id="search"
+            name="search"
+            placeholder="search movie"
+          />
+        </form>
+      </div>
+      <div class="nav-right">
+        <div class="profile">
+          <img
+            src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="hero-main">
+      <section class="hero">
+        <div class="hero-label center">
+           <div class="hero-header flex">
+            <h1 class="hero-title">Snow Mountain</h1>
+            <span class="hero-rating">8.6</span>
+           </div>
+          
+            <ul class="geners flex">
+                <li>Adventure</li>
+                <li>Adventure</li>
+                <li>Adventure</li>
+            </ul>
+           
+           <div class="hero-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum, aut non sed quas distinctio, saepe praesentium necessitatibus sit assumenda dolor quaerat?
+           </div>
+           <button class="watch-hero btn">
+            Watch Now
+           </button>
+
+        </div>
+    </section>
+   
+
+    </section>
+     <h1 class="category-title">Popular Movie</h1>
+    <section class="main" role="main">
+      <div class="movie-container" id="movie-container">
+       <!-- movie listed here  -->
+      </div>
+    </section>
+  
+    <section class="footer"></section>
 
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
