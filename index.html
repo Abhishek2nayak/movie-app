@@ -6,7 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie App</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="animation.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <section class="navbar">
@@ -14,7 +21,7 @@
         <h3>Movie App</h3>
       </div>
       <div class="nav-middle center">
-        <form>
+        <form id="search-form">
           <input
             type="text"
             id="search"
@@ -32,41 +39,36 @@
         </div>
       </div>
     </section>
-    <section class="hero-main">
-      <section class="hero">
-        <div class="hero-label center">
-           <div class="hero-header flex">
-            <h1 class="hero-title">Snow Mountain</h1>
-            <span class="hero-rating">8.6</span>
-           </div>
-          
-            <ul class="geners flex">
-                <li>Adventure</li>
-                <li>Adventure</li>
-                <li>Adventure</li>
-            </ul>
-           
-           <div class="hero-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat harum, aut non sed quas distinctio, saepe praesentium necessitatibus sit assumenda dolor quaerat?
-           </div>
-           <button class="watch-hero btn">
-            Watch Now
-           </button>
 
-        </div>
+    <!-- hero images  -->
+    <section class="hero" id="hero">
+     <!-- hero images listed here  -->
     </section>
-   
 
+
+    <section class="category">
+     <ul>
+      <li><button>Bollywood</button></li>
+      <li><button>Bollywood</button></li>
+      <li><button>Bollywood</button></li>
+      <li><button>Bollywood</button></li>
+      <li><button>Bollywood</button></li>
+     </ul>
     </section>
-     <h1 class="category-title">Popular Movie</h1>
+
+
+
+    <h1 class="category-title" id="category-title">Popular Movie</h1>
     <section class="main" role="main">
       <div class="movie-container" id="movie-container">
-       <!-- movie listed here  -->
+        <!-- movie listed here  -->
       </div>
     </section>
-  
+
     <section class="footer"></section>
 
     <script src="script.js"></script>
   </body>
 </html>
+
+
